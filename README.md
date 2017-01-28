@@ -3,17 +3,17 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: To solve the Naked Twins Problem at first we go through all the values one by one and find any with the length of 2. If we find any, we itearte over the peers of the same to find if there is any peer that has the same value. Then we go through the peers and remove the value of the twin with ''. which in turns remove the value of the twin from the peers.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: The Diagonal Sudoku Problem can be solved by adding the Diagonal Units to the unitlist. Rest was all taken care of the already existing algo and nothing more was needed to be changed.
 
 ### Install
 
 This project requires **Python 3**.
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 Please try using the environment we provided in the Anaconda lesson of the Nanodegree.
 
 ##### Optional: Pygame
